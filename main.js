@@ -28,6 +28,11 @@ const jump = () => {
     ,500);
 }
 
+const updateScore = () => {
+    Score += 1;
+    ScoreElement.textContet = Score;
+    pipe.sryle.animation = 
+}
 const loop = setInterval(() => {
 const pipePosition = pipe.offsetLeft;
 const marioPosition = +window.getComputedStyle(mario).bottom.replace("px", "");
